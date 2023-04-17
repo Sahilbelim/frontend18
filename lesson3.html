@@ -5,23 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table
-        {
-            border: 2px solid black;
-
-         
-        }
-        h3{
-            text-align: center;
-            text-transform: capitalize;
-
-        }
-    </style>
+    <link rel="stylesheet" href="lesson3.css">
+   
 </head>
 <body>
     <h3>this lesson for input tag</h3>
-    <table align="center">
+    <table align="center" >
 
         <tr>
             <td>Enetr Name</td>
@@ -30,7 +19,7 @@
         </tr>
         <tr>
             <td>Age</td>
-            <td> <input type="number"></td>
+            <td> <input type="text"></td>
         </tr>
         <tr>
             <td>DOB</td>
@@ -38,8 +27,9 @@
         </tr>
           <tr>
             <td>gender</td>
-            <td><input type="radio" for="gender" name="male" id=""  placeholder="male">male</td>
-            <td><input type="radio" for="gender" name="female" id="">female</td>
+            <td><input type="radio" for="gender"id='male' />male
+                <input type="radio" for="male" id="female " />female
+           
         </tr>
      <tr>
             <td>Email</td>
@@ -50,10 +40,17 @@
             <td>password</td>
             <td><input type="password" name="" id=""></td>
         </tr>
-      <tr>
-           <td><input type="submit" value="submit"></td>
+
+        <tr><td>select color</td>
+            <td >
+                <input type="color" name="color" id="color">
+            </td>
         </tr>
-     
+      <tr >
+        <td></td>
+           <td id="btn"><button type="submit" >submit</button></td>
+        </tr>
+        
        
     </table>
 

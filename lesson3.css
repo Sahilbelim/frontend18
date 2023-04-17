@@ -1,0 +1,55 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color:rgba(213, 30, 67, 0.592);
+}
+table
+{
+    margin-top: 200px;
+    margin-left: 580px;
+    padding: 25px;
+    border-radius: 10px 40px;
+    background-color:rgba(203, 47, 78, 0.892);
+    opacity: 0.8;
+    box-shadow: 10px 10px 40px rgb(88, 53, 53);
+    width: 25%;
+}
+input
+{
+   padding: 5px; 
+   margin: 5px;
+   border-radius: 4px 10px;
+   border: none;
+   background-color: rgba(244, 124, 124, 0.66);
+   box-shadow: 7px 5px 10px rgba(96, 43, 43, 0.776);
+}
+#btn
+{ display: flex;
+    justify-content: end;
+    
+}
+button
+{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-color: rgba(130, 125, 125, 0.822);
+    border: none;
+    border-radius: 10px;
+
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: -150px;
+    font-size:xx-large;
+
+}
