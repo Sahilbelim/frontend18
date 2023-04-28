@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+    height: 2000px;    
+}
+/* #demo {
+  background-color: #333;
+  /* position: fixed; */
+  /* top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s; */
+/* } */ 
+#box
+{
+    height: 200px;
+    background-color:red;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="box">
+            <h2>Scroll down to hide the div</h2>
+        </div>
+   
+<script>
+   var lastScrollTop = 0;
+
+    $(window).scroll(function () {
+
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > lastScrollTop) {
+
+            $('#box').hide();
+        } else {
+
+            $('#box').show();
+        }
+
+        lastScrollTop = scrollTop;
+    });
+</script>
+  <!-- <script>
+    let x = 0;
+    function myFunction() {
+        document.getElementById("demo").innerHTML = x += 1;
+        if(x>20)
+        {
+            console.log("20")
+        }
+        else
+        {
+            console.log("30")
+
+        }
+    } 
+ </script> -->
+
+<!-- <script>
+        $(window).scroll(function () {
+
+                if ($(this).scrollTop() > 20) {
+                    // $('.scroll-hide').fadeOut();
+                    console.log("20")
+                }
+                else {
+                    // $('.scroll-hide').fadeIn();
+                    console.log("50")
+                }
+            });
+    </script> -->
+</body>
+</html>
