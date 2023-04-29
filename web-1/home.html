@@ -12,8 +12,9 @@
         }
 
         #res-1 {
-            width: 100em;
+            width: 100%;
             opacity: 0.5;
+            background-image: url(../img/res-1.jpg);
         }
 
         h1,
@@ -24,14 +25,16 @@
         }
 
         #header-1 {
-            margin-top: -300px;
-            margin-left: 500px;
+            margin-top: 800px;
+            margin-left: 600px;
             color: #1A120B;
             font-weight: 900;
             opacity: 10;
+            /* justify-content: center; */
             background-color: #D5CEA3;
             width: 30%;
             padding: 5px;
+            padding-left: 30px;
             border-radius: 10px;
             /* position: fixed; */
 
@@ -40,12 +43,16 @@
 
         #title {
             margin-bottom: -150px;
+            /* margin-top: 250px; */
             text-align: center;
+                    color: #D5CEA3;
+
             font-size: 70px;
+            
         }
 
         #about-title {
-            margin-top: 200px;
+            margin-top: 20px;
             color: #1A120B;
         }
 
@@ -53,24 +60,101 @@
             width: 30%;
             text-align: justify;
             margin: 10px;
-            background-color: #3C2A21;
-            color: #D5CEA3;
             padding: 10px;
             border-radius: 20px;
             box-shadow: 10px 5px 20px #3C2A21;
 
         }
+        .color1
+        {
+            background-color: #3C2A21;
+            color: #D5CEA3;
 
+
+        }
+        .color2
+        {
+                        background-color: #D5CEA3;
+            color: #3C2A21;
+
+        }
         #about-body {
             display: flex;
             margin-bottom: 20px;
         }
+#first-div
+{
+    width: 100%;
+    height: 100%;
+    background-size: 2400px 1200px;
+
+    background-image: url(../img/res-1.jpg);
+    padding-bottom: 200px;
+
+}
+#nav-bar
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #3C2A21;
+    padding-bottom: 20px;
+margin-top: -50px;
+width: 96.7%;
+      padding-top: 20px;
+    
+}
+a{
+        color: #D5CEA3;
+         text-decoration: none;
+}
+#nav
+{
+        width: 100%;
+  
+    
+}
+.price
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-3
+{
+    width: 100%;
+}
+#menu-1
+{
+    display: flex;
+}
+#about ,#menu
+{
+    padding-top: 20px;
+    visibility: hidden;
+}
+
+
     </style>
 </head>
 
 <body>
+    <nav id="nav">
+        <ul id="nav-bar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#team">OUR TEAM</a></li>
+            <li><a href="#contect">CONTECT US</a></li>
+        </ul>
+    </nav>
+
+    <div id="first-div">
     <h1 id="title"> kaka da dhaba </h1>
-    <img id="res-1" src="../img/res-1.jpg" alt="">
+  
+   
 
     <div id="header-1">
         <h2>
@@ -80,13 +164,15 @@
             eaque sint, iure laborum, consequuntur dolores porro fuga, ab praesentium.</p>
     </div>
 
+    </div>
+    <div id="about">2</div>
     <div id="about-title">
         <h1>
             About Us
         </h1>
     </div>
     <div id="about-body">
-        <div class="card">
+        <div class="card color1">
             <h3>
                 heading-1
             </h3>
@@ -94,7 +180,7 @@
                 amet magnam dolores voluptatum a illo quos delectus, eaque iure quis dicta laboriosam recusandae
                 possimus dolor!</p>
         </div>
-        <div class="card">
+        <div class="card color1">
             <h3>
                 heading-1
             </h3>
@@ -103,7 +189,7 @@
                 magnam dolores voluptatum a illo quos delectus, eaque iure quis dicta laboriosam recusandae possimus
                 dolor!</p>
         </div>
-        <div class="card">
+        <div class="card color1">
             <h3>
                 heading-1
             </h3>
@@ -113,6 +199,35 @@
                 dolor!</p>
         </div>
     </div>
+    
+
+    <div id="menu"></div>
+        <h1>
+            foode menu
+        </h1>
+        <div id="menu-1">
+            <div class="card color2">
+                <img src="../img/pizza.avif"  class="img-3" alt="">
+                <h3>pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+                <div class="price">5$</div>
+            </div>
+            <div class="card color2">
+                <img src="../img/pizza.avif" class="img-3" alt="">
+                <h3>pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex
+                    non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+                <div class="price">5$</div>
+            </div>
+            <div class="card color2">
+                <img src="../img/pizza.avif" class="img-3" alt="">
+                <h3>pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex
+                    non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+                <div class="price">5$</div>
+            </div>
+        </div>
+   
 </body>
 
 </html>
