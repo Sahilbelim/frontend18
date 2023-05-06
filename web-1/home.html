@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>KAKA DA DHABA</title>
+            <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <style>
         body {
             background-color: #E5E5CB;
@@ -45,10 +46,10 @@
             margin-bottom: -150px;
             /* margin-top: 250px; */
             text-align: center;
-                    color: #D5CEA3;
+            color: #D5CEA3;
 
             font-size: 70px;
-            
+
         }
 
         #about-title {
@@ -65,76 +66,186 @@
             box-shadow: 10px 5px 20px #3C2A21;
 
         }
-        .color1
-        {
+
+        .t-card {
+            width: 25%;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 10px 5px 20px #3C2A21;
+        }
+
+        .color1 {
             background-color: #3C2A21;
             color: #D5CEA3;
 
 
         }
-        .color2
-        {
-                        background-color: #D5CEA3;
+
+        .color2 {
+            background-color: #D5CEA3;
             color: #3C2A21;
 
         }
+
         #about-body {
             display: flex;
             margin-bottom: 20px;
         }
-#first-div
-{
-    width: 100%;
-    height: 100%;
-    background-size: 2400px 1200px;
 
-    background-image: url(../img/res-1.jpg);
-    padding-bottom: 200px;
+        #first-div {
+            width: 100%;
+            height: 100%;
+            background-size: 2400px 1200px;
 
-}
-#nav-bar
-{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    position: fixed;
-    background-color: #3C2A21;
-    padding-bottom: 20px;
-margin-top: -50px;
-width: 96.7%;
-      padding-top: 20px;
-    
-}
-a{
-        color: #D5CEA3;
-         text-decoration: none;
-}
-#nav
-{
-        width: 100%;
-  
-    
-}
-.price
-{
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-.img-3
-{
-    width: 100%;
-}
-#menu-1
-{
-    display: flex;
-}
-#about ,#menu
-{
-    padding-top: 20px;
-    visibility: hidden;
-}
+            background-image: url(../img/res-1.jpg);
+            padding-bottom: 200px;
 
+        }
+        .card:hover
+        {
+          background-color: #D5CEA3;
+            color: #3C2A21;  
+        }
+        
+
+        #nav-bar {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            position: fixed;
+            background-color: #3C2A21;
+            padding-bottom: 20px;
+            margin-top: -50px;
+            width: 96.7%;
+            padding-top: 20px;
+
+        }
+
+        a {
+            color: #D5CEA3;
+            text-decoration: none;
+        }
+         a:active
+          {
+            color: #1A120B;
+            text-decoration: none;
+        }
+        /* a:visited
+        {
+            color:#1A120B;
+        } */
+        /* a:link{
+            color: aqua;
+        } */
+
+        #nav {
+            width: 100%;
+
+
+        }
+
+        .price {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .img-3 {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .img-5
+        {
+            margin-left: 40px;
+            margin-top: 10px;
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;
+        }
+        .img-4 {
+            width: 50%;
+            margin: 20px;
+            border-radius: 10px;
+            height: 100%;
+        }
+
+        #menu-1 {
+            display: flex;
+        }
+
+        #about,
+        #menu,
+        #services ,
+        #team
+        {
+            padding-top: 35px;
+            visibility: hidden;
+        }
+
+        .s-card {
+            width: 90%;
+            background-color: #D5CEA3;
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px #3C2A21;
+
+            margin-left: 50px;
+            display: flex;
+        }
+
+        .s-body {
+            width: 50%;
+            font-size: 20px;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+        }
+
+        .s-body>ul>li {
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        .t-p
+        { margin-left: 100px;
+            color: #E5E5CB;
+            font-size: 15px;
+            opacity: 0.9;
+            width: 50%;
+        }
+        .c-body
+        {
+                        background-color: #D5CEA3;
+                        display: flex;
+        }
+        h5{
+            font-size: 25px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        #number
+        {
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        #add
+        {
+            text-align: justify;
+            padding: 20px;
+
+        }
+        footer
+        {
+           background-color:#1A120B;
+           opacity: 0.7;
+            width:100%;
+            height: 100px;
+        }
+        .h6
+        { padding-top: 30px;
+         font-size: 25px;
+         color: #E5E5CB;
+         text-transform: uppercase;
+         text-align: center;
+        }
 
     </style>
 </head>
@@ -152,17 +263,18 @@ a{
     </nav>
 
     <div id="first-div">
-    <h1 id="title"> kaka da dhaba </h1>
-  
-   
+        <h1 id="title"> kaka da dhaba </h1>
 
-    <div id="header-1">
-        <h2>
-            khate raho
-        </h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, aliquid! Culpa assumenda tenetur sed hic
-            eaque sint, iure laborum, consequuntur dolores porro fuga, ab praesentium.</p>
-    </div>
+
+
+        <div id="header-1">
+            <h2>
+                khate raho
+            </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, aliquid! Culpa assumenda tenetur sed
+                hic
+                eaque sint, iure laborum, consequuntur dolores porro fuga, ab praesentium.</p>
+        </div>
 
     </div>
     <div id="about">2</div>
@@ -199,35 +311,108 @@ a{
                 dolor!</p>
         </div>
     </div>
-    
+
 
     <div id="menu"></div>
-        <h1>
-            foode menu
-        </h1>
-        <div id="menu-1">
-            <div class="card color2">
-                <img src="../img/pizza.avif"  class="img-3" alt="">
-                <h3>pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
-                <div class="price">5$</div>
-            </div>
-            <div class="card color2">
-                <img src="../img/pizza.avif" class="img-3" alt="">
-                <h3>pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex
-                    non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
-                <div class="price">5$</div>
-            </div>
-            <div class="card color2">
-                <img src="../img/pizza.avif" class="img-3" alt="">
-                <h3>pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem maiores ex
-                    non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
-                <div class="price">5$</div>
-            </div>
+    <h1>
+        foode menu
+    </h1>
+    <div id="menu-1">
+        <div class="card color2">
+            <img src="../img/pizza.avif" class="img-3" alt="">
+            <h3>pizza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem
+                maiores ex non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+            <div class="price">5$</div>
         </div>
-   
+        <div class="card color2">
+            <img src="../img/pizza.avif" class="img-3" alt="">
+            <h3>pizza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem
+                maiores ex
+                non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+            <div class="price">5$</div>
+        </div>
+        <div class="card color2">
+            <img src="../img/pizza.avif" class="img-3" alt="">
+            <h3>pizza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis explicabo exercitationem
+                maiores ex
+                non aspernatur dolore, consequuntur quam vel quis laudantium corporis aut hic.</p>
+            <div class="price">5$</div>
+        </div>
+    </div>
+    <div id="services"></div>
+    <h1>
+        SERVICES
+    </h1>
+
+    <div class="s-card">
+        <img src="../img/resturent-servicise.jpg" class="img-4" alt="img-not- found">
+        <div class="s-body">
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa aut exercitationem nisi quo
+                    eum nesciunt deleniti rerum harum voluptates!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus illum sed assumenda id,
+                    voluptas ipsum totam hic at exercitationem qui earum porro? Temporibus, eligendi ad!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, cupiditate. Quos, unde ut? Labore,
+                    voluptatem.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, sequi neque. Maiores, earum! Numquam
+                    ipsa velit incidunt, animi officia, totam veniam quod laborum qui assumenda labore?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id magnam architecto, doloremque
+                    quidem in fuga, nisi ipsum optio amet, commodi excepturi.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia libero unde repudiandae animi
+                    minus doloremque eius iure recusandae?</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="team"></div>
+    <h1>
+        our team
+    </h1>
+    <div id="menu-1">
+        <div class="t-card color1">
+            <img src="../img/chef-1.jpg" class="img-5" alt="">
+            <h3>suresh</h3>
+
+        </div>
+        <div class="t-card color1">
+            <img src="../img/chef-1.jpg" class="img-5" alt="">
+            <h3>ramesh</h3>
+
+        </div>
+        <div class="t-card color1">
+            <img src="../img/chef-1.jpg" class="img-5" alt="">
+            <h3>sameer</h3>
+
+        </div>
+        <div class="t-card color1">
+            <img src="../img/chef-1.jpg" class="img-5" alt="">
+            <h3>raghav</h3>
+
+        </div>
+
+    </div>
+    <div id="contect"></div>
+    <h1>contect us</h1>
+
+    <div class="c-body">
+        <img src="../img/map.jpg" alt="img not found">
+        <div class="address">
+        
+        <h5 > the easylearn academy</h5>  
+        <p id="number"><b>contect number :</b> 999854536</p>
+        <p id="add">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt et pariatur architecto, sed, ex eius quo impedit quam nulla harum? Veritatis exercitationem quam molestiae numquam ratione fugit suscipit voluptas.</p>
+      </div>
+
+    </div>
+    <footer>
+<div class="h6" >develop by sahil belim & viraj gajjar</div>
+
+    </footer>
+
+
 </body>
 
 </html>
