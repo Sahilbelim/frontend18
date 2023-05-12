@@ -250,6 +250,10 @@
  @media (min-width: 1025px) and (max-width: 1280px) {
 
      /* code in this block will be applied only if device width>1025 and <1280 */
+     body
+     {
+        width: 100%;
+     }
 #first-div {
  
         padding-bottom: 200px;
@@ -269,31 +273,35 @@
      {
         display: flex;
      }
+
+         #about-body {
+             display: flex;
+         }
+    
+         #menu-1 {
+             display: flex;
+         }
+    
+         .s-card {
+             display: flex      ;
+         }
+                 .t-card {
+                     width: 20%;
+                     margin-left: 30px;
+                 }
+                                 .img-5 {
+                                     margin-left: 50px;
+                                     margin-top: 10px;
+                                     width: 200px;
+                                     height: 200px;
+                                     border-radius: 100px;
+                                 }
+
  }
 
  /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
  @media (min-width: 768px) and (max-width: 1024px) {
-    #first-div {
     
-            padding-bottom: 200px;
-                background-size: 2400px 1200px;
-        }
-    
-        .card {
-            width: 30%;
-        }
-    
-        #about-body {
-            display: flex;
-        }
-    
-        #menu-1 {
-            display: flex;
-        }
-    
-        .s-card {
-            display: flex;
-        }
     }
 
      /* code in this block will be applied only if device width>768 and <1024 */
@@ -406,7 +414,7 @@
 }
 .img-5
 {
-    margin-left: 40px;
+    margin-left:60px;
         margin-top: 10px;
         width: 200px;
         height: 200px;
