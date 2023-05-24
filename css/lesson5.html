@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>gride</title>
+    <style>
+        .div-1 {
+            display: grid;
+            /* grid-template-columns: 30% 30% 30%;*/
+            /* grid-template-columns: 2fr 1fr 1fr;             */
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 50px;
+
+            gap: 10px;
+            /* border: 2px solid black; */
+            text-align: center;
+        }
+
+        .div-2 {
+            background-color: cadetblue;
+            color: darkblue;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .web-header {
+            margin-top: 50px;
+            background-color: aquamarine;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid black;
+        }
+
+        .web-container {
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+        }
+
+        .web-footer {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+
+        .web-sidebar {
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            padding-top: 20px;
+            background-color: rgba(102, 182, 182, 0.671);
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+        .web-content {
+            padding: 10px;
+        }
+
+        .d-2 {
+            background-color: lightskyblue;
+            color: navy;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+        }
+
+        .d-1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            border: 1px solid black;
+            width: 300px;
+            background-color: rgba(73, 73, 201, 0.301);
+            border-radius: 20px;
+            margin: 10px;
+        }
+
+        .p-card {
+            display: flex;
+        }
+
+        .img {
+            border-radius: 20px 20px 0 0;
+        }
+
+        .b {
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px;
+            margin-right: 10px;
+            width: 300px;
+        }
+
+        .btn {
+            padding: 10px;
+            text-transform: capitalize;
+            color: blue;
+            background-color: lightblue;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>gride system</h1>
+
+    <div class="div-1">
+        <div class="div-2">div 1</div>
+        <div class="div-2">div 2</div>
+        <div class="div-2">div 3</div>
+        <div class="div-2">div 4</div>
+        <div class="div-2">div 5</div>
+        <div class="div-2">div 6</div>
+        <div class="div-2">div 7</div>
+    </div>
+
+
+    <div class="web">
+        <div class="web-header"> this is heading</div>
+        <div class="web-container">
+            <div class="web-sidebar">side bar</div>
+            <div class="web-content">
+                <h1>content </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus dicta saepe rem. Distinctio
+                    quaerat eveniet magnam doloribus at libero officia iusto provident enim optio inventore, totam
+                    aliquid iste esse ad exercitationem? Quasi explicabo illo quae, aut corrupti sequi atque molestiae
+                    officiis ducimus inventore quos iste recusandae nihil cumque. Distinctio.</p>
+            </div>
+        </div>
+        <div class="web-footer">this is footer</div>
+    </div>
+
+    <div class="d-1">
+        <div class="d-2">div 1</div>
+        <div class="d-2">div 2</div>
+        <div class="d-2">div 3</div>
+        <div class="d-2">div 4</div>
+        <div class="d-2">div 4</div>
+        <div class="d-2">div 4</div>
+        <div class="d-2">div 4</div>
+
+    </div>
+    <div class="p-card">
+        <div class="card">
+            <img src="https://picsum.photos/300/200" class="img" alt="">
+            <div>
+                <div class="b">name : ........</div>
+                <div class="b">price :250$</div>
+                <div class="b">
+                    <button class="btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200" class="img" alt="">
+            <div>
+                <div class="b">name : ........</div>
+                <div class="b">price :250$</div>
+                <div class="b">
+                    <button class="btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200" class="img" alt="">
+            <div>
+                <div class="b">name : ........</div>
+                <div class="b">price :250$</div>
+                <div class="b">
+                    <button class="btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200" class="img" alt="">
+            <div>
+                <div class="b">name : ........</div>
+                <div class="b">price :250$</div>
+                <div class="b">
+                    <button class="btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
